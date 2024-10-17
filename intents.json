@@ -1,0 +1,243 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola", 
+        "qué tal", 
+        "cómo estás", 
+        "saludos", 
+        "buenos días", 
+        "buenas tardes"
+      ],
+      "responses": [
+        "¡Hola!", 
+        "¡Buenos días!", 
+        "¿Cómo estás?"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "cómo es tu nombre", 
+        "cómo te llamas"
+      ],
+      "responses": [
+        "Soy DataFón", 
+        "Me llamo Datafón", 
+        "¿Cómo estás?"
+      ]
+    },
+    {
+      "tag": "presupuesto",
+      "patterns": [
+        "¿Cuál es tu presupuesto?",
+        "¿Cuánto planeas gastar?",
+        "¿Cuál es el máximo que gastarías en un teléfono?",
+        "Dime tu presupuesto para el teléfono",
+        "¿Cuánto dinero quieres gastar en un teléfono?",
+        "¿Cuál es tu presupuesto máximo?"
+      ],
+      "responses": [
+        "¿Podrías decirme tu presupuesto máximo?",
+        "¿Qué cantidad estás dispuesto a pagar por un teléfono?"
+      ]
+    },
+    {
+      "tag": "camara_principal",
+      "patterns": [
+        "¿Qué tipo de fotos planeas tomar?",
+        "¿Te interesa la calidad de la cámara?",
+        "¿Qué tan importante es la cámara para ti?",
+        "¿Vas a tomar fotos con el teléfono?",
+        "¿Te gustan las fotos de paisajes?",
+        "¿Prefieres una buena cámara para tus fotos?"
+      ],
+      "responses": [
+        "¿Te gustaría una cámara para selfies, fotos de paisajes o simplemente no te importa?",
+        "¿Qué tipo de fotos planeas tomar: apuntes, selfies o paisajes?"
+      ]
+    },
+    {
+      "tag": "camara_frontal",
+      "patterns": [
+        "¿Qué importancia tiene la cámara delantera?",
+        "¿Te interesa la cámara frontal?",
+        "¿Planeas usar la cámara delantera?",
+        "¿Para qué usarías la cámara delantera?",
+        "¿Vas a hacer videollamadas con la cámara delantera?"
+      ],
+      "responses": [
+        "¿No la usas mucho o prefieres selfies de buena calidad?",
+        "¿La usarás para videollamadas o selfies?"
+      ]
+    },
+    {
+      "tag": "pantalla",
+      "patterns": [
+        "¿Qué tamaño de pantalla prefieres?",
+        "¿Te gusta una pantalla grande?",
+        "¿Cuál es el tamaño de pantalla que prefieres?",
+        "¿Te gustaría una pantalla más grande para ver videos?",
+        "¿Qué tan importante es el tamaño de la pantalla para ti?"
+      ],
+      "responses": [
+        "¿Prefieres una pantalla grande para ver videos o una más pequeña que sea manejable?",
+        "¿Te gustaría una pantalla pequeña, mediana o grande?"
+      ]
+    },
+    {
+      "tag": "rendimiento",
+      "patterns": [
+        "¿Para qué usarás el teléfono?",
+        "¿Vas a jugar con el teléfono?",
+        "¿Planeas hacer tareas exigentes?",
+        "¿Cómo piensas usar el teléfono?",
+        "¿Qué tipo de tareas realizarás con el teléfono?"
+      ],
+      "responses": [
+        "¿Usarás el teléfono solo para cosas básicas, redes sociales o juegos?",
+        "¿Vas a hacer uso básico, general o jugar con el teléfono?"
+      ]
+    },
+    {
+      "tag": "bateria",
+      "patterns": [
+        "¿Qué importancia tiene la duración de la batería?",
+        "¿Cuánto te importa la batería del teléfono?",
+        "¿Te preocupa que la batería se descargue rápido?",
+        "¿Te importa si la batería dura un día o más?",
+        "¿Vas a usar mucho la batería?"
+      ],
+      "responses": [
+        "¿Te importa cargar el teléfono seguido o prefieres una batería que dure todo el día?",
+        "¿Quieres una batería que dure más de un día?"
+      ]
+    },
+    {
+      "tag": "almacenamiento",
+      "patterns": [
+        "¿Cuánto almacenamiento necesitas?",
+        "¿Qué cantidad de espacio de almacenamiento prefieres?",
+        "¿Vas a necesitar mucho espacio para guardar cosas?",
+        "¿Te preocupa quedarte sin espacio en el teléfono?",
+        "¿Te importa si el teléfono tiene mucho almacenamiento?"
+      ],
+      "responses": [
+        "¿Solo necesitas espacio básico o prefieres mucho almacenamiento para fotos y videos?",
+        "¿Cuánto espacio necesitas: lo esencial, suficiente para apps o mucho para archivos grandes?"
+      ]
+    },
+    {
+      "tag": "sistema_operativo",
+      "patterns": [
+        "¿Qué sistema operativo prefieres?",
+        "¿Prefieres Android o iOS?",
+        "¿Tienes una preferencia de sistema operativo?",
+        "¿Usas Android o iOS?",
+        "¿Cuál es tu sistema operativo favorito?"
+      ],
+      "responses": [
+        "¿Prefieres Android, iOS o no te importa?",
+        "¿Te sientes más cómodo con Android o iOS?"
+      ]
+    },
+    {
+      "tag": "conectividad",
+      "patterns": [
+        "¿Qué tipo de conexión necesitas?",
+        "¿Usarás el teléfono solo con Wi-Fi?",
+        "¿Te importa si tiene 4G o 5G?",
+        "¿Qué tipo de conectividad prefieres?",
+        "¿Vas a usar el teléfono fuera de casa?"
+      ],
+      "responses": [
+        "¿Prefieres solo Wi-Fi, 4G o 5G?",
+        "¿Te gustaría tener 4G o 5G además de Wi-Fi?"
+      ]
+    },
+    {
+      "tag": "resistencia",
+      "patterns": [
+        "¿Qué tan resistente quieres que sea el teléfono?",
+        "¿Te importa que el teléfono sea resistente al agua?",
+        "¿Necesitas un teléfono resistente?",
+        "¿Quieres que el teléfono soporte caídas y agua?",
+        "¿Qué nivel de resistencia prefieres?"
+      ],
+      "responses": [
+        "¿Prefieres un teléfono normal o resistente al agua y caídas?",
+        "¿Te gustaría que el teléfono sea resistente al agua y golpes?"
+      ]
+    },
+    {
+      "tag": "diseno",
+      "patterns": [
+        "¿Cómo te gustaría que se vea el teléfono?",
+        "¿Te importa el diseño del teléfono?",
+        "¿Prefieres un diseño clásico o moderno?",
+        "¿Te importa que el teléfono sea colorido o sobrio?",
+        "¿Qué tipo de diseño prefieres?"
+      ],
+      "responses": [
+        "¿Prefieres un diseño clásico y elegante o moderno y colorido?",
+        "¿Te gustaría un teléfono robusto y funcional o más estético?"
+      ]
+    },
+    {
+      "tag": "carga_inalambrica",
+      "patterns": [
+        "¿Te gustaría poder cargar el teléfono sin cables?",
+        "¿Prefieres carga inalámbrica o con cable?",
+        "¿Quieres que el teléfono tenga carga inalámbrica?",
+        "¿Te importa si el teléfono tiene carga inalámbrica?"
+      ],
+      "responses": [
+        "¿Prefieres carga con cable o inalámbrica?",
+        "¿Te gustaría poder cargarlo sin cables?"
+      ]
+    },
+    {
+      "tag": "altavoces",
+      "patterns": [
+        "¿Qué importancia tienen los altavoces para ti?",
+        "¿Te importa la calidad de los altavoces?",
+        "¿Vas a escuchar música o ver videos con el teléfono?",
+        "¿Te interesa el sonido de los altavoces?",
+        "¿Qué tipo de altavoces prefieres?"
+      ],
+      "responses": [
+        "¿Te importa el sonido de los altavoces o no es importante?",
+        "¿Prefieres altavoces de buena calidad para música o videos?"
+      ]
+    },
+    {
+      "tag": "seguridad",
+      "patterns": [
+        "¿Qué tipo de seguridad quieres para el teléfono?",
+        "¿Prefieres seguridad con huella dactilar?",
+        "¿Te importa que tenga reconocimiento facial?",
+        "¿Cómo prefieres proteger el teléfono?",
+        "¿Te importa si tiene huella o reconocimiento facial?"
+      ],
+      "responses": [
+        "¿Prefieres una contraseña, huella dactilar o reconocimiento facial?",
+        "¿Te gustaría más la huella dactilar o el reconocimiento facial?"
+      ]
+    },
+    {
+      "tag": "actualizaciones",
+      "patterns": [
+        "¿Qué tan importante es recibir actualizaciones?",
+        "¿Te importa que el teléfono reciba actualizaciones?",
+        "¿Quieres soporte técnico para el teléfono?",
+        "¿Cuánto te importan las actualizaciones?",
+        "¿Te gustaría que el teléfono tenga soporte prolongado?"
+      ],
+      "responses": [
+        "¿Prefieres recibir actualizaciones regularmente o no te importa mucho?",
+        "¿Te interesa que el teléfono tenga soporte técnico y actualizaciones frecuentes?"
+      ]
+    }
+  ]
+}
