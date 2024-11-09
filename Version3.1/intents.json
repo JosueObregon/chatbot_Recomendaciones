@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola", 
+        "qué tal", 
+        "cómo estás", 
+        "saludos", 
+        "buenos días", 
+        "buenas tardes"
+      ],
+      "responses": [
+        "¡Hola! Bienvenido al recomendador de celulares. Voy a hacerte algunas preguntas para ofrecerte el mejor teléfono para ti.",
+        "¡Hola! Vamos a empezar con algunas preguntas para saber qué celular recomendarte."
+      ]
+    },
+    {
+      "tag": "edad_usuario",
+      "patterns": [],
+      "responses": [
+        "¿Cuál es tu edad?"
+      ]
+    },
+    {
+      "tag": "presupuesto",
+      "patterns": [
+        "empezar",
+        "iniciar",
+        "listo",
+        "vamos"
+      ],
+      "responses": [
+        "¿Cuál es tu presupuesto máximo para el teléfono? (Elige un valor entre $300 y $50,000 pesos)."
+      ]
+    },
+	{
+		"tag": "marca_preferida",
+		"patterns": [],
+		"responses": [
+			"¿Tienes alguna marca de teléfono que prefieras? Selecciona una opción:\n1. Samsung\n2. Xiaomi\n3. Motorola\n4. Apple\n5. Huawei\n6. Oppo\n7. Honor\n8. Tcl\n9. Zte\n0. No tengo preferencia de marca."
+		]
+	},
+    {
+      "tag": "camara_principal",
+      "patterns": [],
+      "responses": [
+        "Cámara principal: ¿Qué tipo de fotos planeas tomar? Selecciona una opción:\n1. No me interesa tomar fotos.\n2. La quiero para fotos de apuntes o escolares.\n3. Me gusta plasmar paisajes impresionantes en mis fotos."
+      ]
+    },
+    {
+      "tag": "camara_frontal",
+      "patterns": [],
+      "responses": [
+        "Cámara frontal: ¿Qué importancia tiene la cámara delantera para ti? Selecciona una opción:\n1. No la uso mucho.\n2. Para videollamadas ocasionales.\n3. Para selfies de buena calidad."
+      ]
+    },
+    {
+      "tag": "pantalla",
+      "patterns": [],
+      "responses": [
+        "Pantalla: ¿Qué tamaño de pantalla prefieres? Selecciona una opción:\n1. Pantalla pequeña y manejable.\n2. Pantalla mediana, fácil de usar.\n3. Pantalla grande, ideal para ver videos y jugar."
+      ]
+    },
+    {
+      "tag": "rendimiento",
+      "patterns": [],
+      "responses": [
+        "Rendimiento: ¿Para qué usarás tu teléfono principalmente? Selecciona una opción:\n1. Para cosas básicas (llamadas, mensajes).\n2. Para uso general (redes sociales, navegación).\n3. Para juegos y tareas exigentes."
+      ]
+    },
+    {
+      "tag": "bateria",
+      "patterns": [],
+      "responses": [
+        "Duración de la batería: ¿Qué importancia tiene la duración de la batería para ti? Selecciona una opción:\n1. No me importa mucho, puedo cargarlo a menudo.\n2. Quiero una batería que dure todo el día.\n3. Necesito una batería que dure más de un día sin cargar."
+      ]
+    },
+    {
+      "tag": "almacenamiento",
+      "patterns": [],
+      "responses": [
+        "Almacenamiento: ¿Cuánto espacio de almacenamiento necesitas? Selecciona una opción:\n1. Espacio mínimo, solo lo esencial.\n2. Espacio suficiente para aplicaciones y fotos.\n3. Mucho espacio para almacenar archivos y videos."
+      ]
+    },
+    {
+      "tag": "sistema_operativo",
+      "patterns": [],
+      "responses": [
+        "Sistema operativo: ¿Cuál sistema operativo prefieres? Selecciona una opción:\n1. Android\n2. iOS\n3. No tengo preferencia."
+      ]
+    },
+    {
+      "tag": "conectividad",
+      "patterns": [],
+      "responses": [
+        "Conectividad: ¿Qué tipo de conexión necesitas? Selecciona una opción:\n1. Solo Wi-Fi (internet en casa).\n2. Wi-Fi y 4G (internet en casa y fuera).\n3. Wi-Fi y 5G (internet rápido en casa y fuera)."
+      ]
+    },
+    {
+      "tag": "diseno",
+      "patterns": [],
+      "responses": [
+        "Diseño: ¿Cómo te gustaría que se vea tu teléfono? Selecciona una opción:\n1. Clásico y elegante.\n2. Moderno y colorido.\n3. Robusto y funcional."
+      ]
+    }
+  ]
+}
