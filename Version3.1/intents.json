@@ -96,13 +96,6 @@
       "responses": [
         "Conectividad: ¿Qué tipo de conexión necesitas? Selecciona una opción:\n1. Solo Wi-Fi (internet en casa).\n2. Wi-Fi y 4G (internet en casa y fuera).\n3. Wi-Fi y 5G (internet rápido en casa y fuera)."
       ]
-    },
-    {
-      "tag": "diseno",
-      "patterns": [],
-      "responses": [
-        "Diseño: ¿Cómo te gustaría que se vea tu teléfono? Selecciona una opción:\n1. Clásico y elegante.\n2. Moderno y colorido.\n3. Robusto y funcional."
-      ]
     }
   ]
 }
